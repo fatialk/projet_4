@@ -44,6 +44,40 @@ a:hover {
     padding-right: 0;
 }
 
+.col-sm-12 span{
+    margin: 0 auto;
+    width: 634px;
+    font-size: 22px;
+    display: flex;
+    color: black;
+ 
+}
+
+.col-xs-12 span{
+    margin: 0 auto;
+    width: 619px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-style: italic;
+
+}
+
+.col-xs-12 .suite{
+    font-style: normal;
+    font-size: 22px;
+    display: flex;
+    color: black;
+}
+
+.col-sm-12 span{
+    width: 460px;
+    margin: 0 auto;
+}
+
+
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -134,9 +168,6 @@ footer .text-center .black{
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
@@ -151,9 +182,6 @@ footer .text-center .black{
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -232,9 +260,6 @@ footer .text-center .black{
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
@@ -250,9 +275,6 @@ footer .text-center .black{
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
@@ -647,9 +669,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 label,
 .btn,
@@ -738,9 +757,6 @@ h1 {
     color: black!important;
 }
 
-h4 {
-    color: black!important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -909,9 +925,6 @@ h4 {
     h1,
     h2,
     h3,
-    h4,
-    h5,
-    h6,
     p,
     #disqus_thread {
         padding-left: 10px!important;
