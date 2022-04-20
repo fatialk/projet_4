@@ -99,8 +99,13 @@ a:hover {
     background-attachment: fixed;
 }
 
+footer .text-center .black{
+    color: black;
+}
+
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: black;
+    font-weight: bold;
 }
 
 .d-bloc button:hover {
