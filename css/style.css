@@ -735,12 +735,12 @@ p .text-center .white {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3, h5 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2, h4{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
