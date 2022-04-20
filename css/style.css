@@ -654,6 +654,9 @@ a {
     color: black!important;
 }
 
+
+
+
 .container {
     max-width: 1000px;
 }
@@ -676,8 +679,12 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
+/* p  {
     font-size: 11px;
+} */
+
+p .text-center .white {
+    font-size: 14px!important;
 }
 
 .tight-width-whitespace {
@@ -736,7 +743,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .portfolio-thumb {
@@ -753,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(14 13 13 / 40%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -789,7 +796,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color:white!important;
 }
 
 .ltc-white:hover {
