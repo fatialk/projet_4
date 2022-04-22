@@ -2084,7 +2084,7 @@ GMaps.staticMapURL = function(options){
   }
 
   /** Retina support **/
-  var dpi = window.devicePixelRatio || 1;
+  var dpi = window.PixelRatio || 1;
   parameters.push('scale=' + dpi);
 
   parameters = parameters.join('&');

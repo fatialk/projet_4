@@ -46,7 +46,7 @@ a:hover {
 
 .col-sm-12 span{
     margin: 0 auto;
-    width: 634px;
+    width: 460px;
     font-size: 22px;
     display: flex;
     color: black;
@@ -69,11 +69,6 @@ a:hover {
     font-size: 22px;
     display: flex;
     color: black;
-}
-
-.col-sm-12 span{
-    width: 460px;
-    margin: 0 auto;
 }
 
 
@@ -781,7 +776,7 @@ h1 {
 }
 
 .black-background {
-    background-color: rgb(14 13 13 / 40%);
+    background-color: rgb(14 13 13 / 60%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -853,6 +848,10 @@ h1 {
     background-image: url("../img_webp/image-de-presentation.webp");
 }
 
+.margin-left{
+    margin-left: 100px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -876,13 +875,13 @@ h1 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1041,16 +1040,37 @@ h1 {
     .close-lightbox {
         display: inline-block;
     }
-    .blocsapp-device-iphone5 {
+    .blocsapp-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
         width: 216px;
         height: 425px;
     }
-    .blocsapp-device-iphone5 img {
+    .blocsapp-iphone5 img {
         width: 180px;
         height: 320px;
     }
+
+    .margin-left{
+        margin-left: 0px;
+    }
+
+    .col-xs-12 span{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .col-sm-12 span{
+        width: 90%;
+    }
+
+    .portfolio-thumb{
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 10px;
+        
+    }
+
 }
 
 @media (max-width: 400px) {
